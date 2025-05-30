@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/vnd.icon" href="faviconBspickerLogo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <title>bs-picker.com</title>
+  </head>
+  <body>
+    <div class="logoutContainer" id="logoutContainer">
+      <span>You have been succesfully logout</span>
+    </div>
+    <div class="mainSection">
+      <div class="navBar">
+        <img class="bspickerLogo" src="bspickerLogo.png" alt="" />
+      </div>
+      <div class="homeSection">
+        <div class="titleSection">
+          <h1>BS Picker</h1>
+          <h2>The ultimate drafter tool for Brawl Star</h2>
+        </div>
+        <div class="buttonSection">
+          <div class="titleButton"><h3>Get Started :</h3></div>
+          <div class="buttonFrameContainer">
+            <div class="buttonFrame" id="supercellIdButton">
+              <img src="supercellIdLogo.jpg" alt="Supercell Id Logo" />
+            </div>
+            <div class="buttonFrame" id="tagButton">
+              <h3>Enter your player tag</h3>
+              <form action="" method="get" id="tagForm">
+                <div class="rowContainer">
+                  <div class="hashtagFrame">
+                    <span class="hashtagContainer">#</span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Y9PL8RJR"
+                    class="tagInput"
+                    maxlength="11"
+                    id="tagInput"
+                  />
+                </div>
+                <div class="rowContainerButton">
+                  <input
+                    type="button"
+                    value="Submit"
+                    class="tagInputSubmit"
+                    id="submitButton"
+                    href
+                  />
+                  <div id="spinner"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

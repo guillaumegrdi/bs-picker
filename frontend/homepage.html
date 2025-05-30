@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/vnd.icon" href="faviconBspickerLogo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ------------------SVG Ions--------------- -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <!-- -------------------------- -->
+    <title>bs-picker.com</title>
+  </head>
+  <body>
+    <div class="checkContainer" id="checkContainer">
+      <div class="logoutCheckContainer">
+        <div class="textContainer">
+          <h1>
+            You are about to log out. <br />
+            Do you wish to continue?
+          </h1>
+        </div>
+        <div class="buttonContainer">
+          <button id="unValidLogout">
+            <span class="material-symbols-outlined">undo</span>No, go back
+          </button>
+          <button id="validLogout">Yes, log out</button>
+        </div>
+      </div>
+    </div>
+    <div class="mainSection">
+      <div class="navBar">
+        <img class="bspickerLogo" src="bspickerLogo.png" alt="" />
+        <ul class="mainNavUl">
+          <div class="mainLi">
+            <li class="homeLi"><a href="homepage.html" id="homeLi">Home</a></li>
+            <li class="statsLi"><a href="stats.html" id="statsLi">Stats</a></li>
+            <li class="draftLi"><a href="draft.html" id="draftLi">Draft</a></li>
+          </div>
+        </ul>
+        <ul class="secondNavUl">
+          <li class="settingsLi">
+            <a href="settings.html">
+              <span class="material-symbols-outlined"> settings </span>
+            </a>
+            <span class="text">Settings</span>
+          </li>
+          <li class="logoutLi">
+            <a id="logoutButton">
+              <span class="material-symbols-outlined"> exit_to_app </span>
+            </a>
+            <span class="text">Logout</span>
+          </li>
+        </ul>
+      </div>
+      <div class="welcomeSection">
+        <div class="tagNameContainer">
+          <h1>
+            Welcome
+            <div class="nameContainer"><h1 id="nameContainer"></h1></div>
+          </h1>
+        </div>
+        <div class="actionContainer">
+          <div class="textContainer">
+            <div class="cardContainer" id="cardContainer">
+              <div class="backgroundContainer">
+                <h3 class="introText">
+                  <span>-Get Started-</span>
+                  <br />
+
+                  BS Picker
+                  <p>
+                    A smart assistant built for ranked draft strategy.
+                    <br /><br />Discover personalized tips, powerful stats, and
+                    real-time advice to climb the ladder efficiently.
+                  </p>
+                </h3>
+                <input
+                  type="button"
+                  value="Discover"
+                  class="discoverSubmit"
+                  id="discoverSubmit"
+                  href
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="name.js"></script>
+  </body>
+</html>

@@ -27,7 +27,6 @@ body {
   background-size: 70%;
   background-position: bottom;
   background-repeat: no-repeat;
-  overflow-y: hidden;
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
